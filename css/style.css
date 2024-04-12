@@ -61,7 +61,7 @@ nav li:hover{
   background-color: #81002a;
 }
 .container #about{
-  background-color: white;
+  background-color: #0a2a5a;
   color: #8800f8;
 }
 #about{
@@ -82,4 +82,67 @@ a[href="/styles/"] {
   background-color: #000;
   border-radius: 5em;
   padding: 1em;
+}
+
+#about .container ul {
+  list-style-type: none; 
+  padding: 0.5em;
+  columns: 3;
+  
+}
+#about .container ul li {
+  background-image: linear-gradient(to bottom, #4e0c0c, #81002a, #b3005b, #d700a3, #dd00ff);
+  border-radius: 1em; /* Add rounded corners */
+  color: #000;
+  padding: 0.3em;
+  margin-bottom: 15px;
+}
+
+
+#guidelines .container{
+text-align: center;
+padding: 20px;
+  
+}
+
+#guidelines .container h2 {
+  color: #8800f8;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#guidelines .container h3 {
+  color: #8800f8;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#guidelines .container p {
+  color: #8800f8;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+#guidelines .container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#guidelines .container a:hover {
+  text-decoration: underline;
+}
+
+.link-guidelines {
+  background: linear-gradient(to bottom, #4e0c0c, #81002a, #b3005b, #d700a3, #dd00ff);
+  padding: 10px; /* Add padding for better spacing */
+  margin-bottom: 5px; /* Add margin between list items */
+  border-radius: 1em; /* Add rounded corners */
+  color: #000;
+}
+
+.link-guidelines:hover {
+  background: #0a2a5a;
+  
 }
