@@ -245,6 +245,9 @@ padding: 20px;
 color:#dd00ff;
 border-radius: 1em;
 }
+#styles .container h2{
+  font-size: 30px;
+}
 
 .link-downloadcss,
   .link-downloadhtml,
