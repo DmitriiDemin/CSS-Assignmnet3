@@ -1,7 +1,36 @@
+/*add a background color to the body*/
 body{
   background-color: #0a2a5a;
 }
-/*star image*/
+/*add fonts*/
+p{
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-family: "Bebas Neue", sans-serif;;
+}
+a{
+  font-family: "Platypi", serif;;
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+  font-size: 200px;
+  color: #dd00ff;
+  text-decoration: underline;
+  font-family: "Jacquard 24", system-ui;
+
+}
+h2{
+  font-size: 50px;
+}
+h3{
+  font-size: 40px;
+}
+/*allign the header to the center */
+header .container{
+  text-align: center;
+}
+/*adjust the star and github link*/
 span svg {
   width: 13px; 
   height: 13px; 
@@ -9,6 +38,7 @@ span svg {
 }
 a span{
   background-color: blueviolet;
+  
 }
 .link-github{
   background-color: blueviolet;
@@ -20,15 +50,13 @@ a span{
   display: none;
   text-align: center;
 }
-h1{
-  text-align: center;
-  font-size: 150px;
-  color: #dd00ff;
-}
+/*add styling to the h2*/
 header h2{
   text-align: center;
   background-image: linear-gradient(to right top, #0a2a5a, #23388c, #563fbb, #953ae2, #dd00ff);
   border-radius: 5em;
+  text-decoration: underline;
+
 }
 header p{
   text-align: center;
@@ -64,12 +92,13 @@ nav li:hover{
   background-color: #0a2a5a;
   color: #8800f8;
 }
+/*split the about section in 2 columns*/
 #about{
   columns: 2;
   display: flex;
 }
 .container h2{
-  font-size: 30px;
+  text-decoration: underline;
 }
 
 a[href="/styles/"] {
@@ -92,39 +121,43 @@ a[href="/styles/"] {
 }
 #about .container ul li {
   background-image: linear-gradient(to bottom, #4e0c0c, #81002a, #b3005b, #d700a3, #dd00ff);
-  border-radius: 1em; /* Add rounded corners */
+  border-radius: 1em; 
   color: #000;
   padding: 0.3em;
   margin-bottom: 15px;
 }
-
-
+/*adjust the guidelines section*/
+#guidelines{
+  padding: 0 30px 0 30px ;
+}
 #guidelines .container{
 text-align: center;
 padding: 20px;
   
 }
-
+/*adjust h2 of guidelines  section*/
 #guidelines .container h2 {
   color: #8800f8;
   font-size: 24px;
+  text-decoration: underline;
   margin-bottom: 20px;
 }
-
+/*adjust h3 of guidelines  section*/
 #guidelines .container h3 {
   color: #8800f8;
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 15px;
-}
+  text-decoration: underline;
 
+}
+/*adjust p tag of guidelines  section*/
 #guidelines .container p {
   color: #8800f8;
-  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 15px;
 }
-
+/*adjust a tag of guidelines  section*/
 #guidelines .container a {
   color: #007bff;
   text-decoration: none;
@@ -136,9 +169,9 @@ padding: 20px;
 
 .link-guidelines {
   background: linear-gradient(to bottom, #4e0c0c, #81002a, #b3005b, #d700a3, #dd00ff);
-  padding: 10px; /* Add padding for better spacing */
-  margin-bottom: 5px; /* Add margin between list items */
-  border-radius: 1em; /* Add rounded corners */
+  padding: 10px; 
+  margin-bottom: 5px; 
+  border-radius: 1em; 
   color: #000;
 }
 
@@ -146,3 +179,89 @@ padding: 20px;
   background: #0a2a5a;
   
 }
+/*adjust contribute section*/
+#contribute{
+  padding: 0 30px 0 30px ;
+  
+}
+#contribute .container{
+  text-align: center;
+}
+/*adjust h2 of contributes section*/
+#contribute .container h2{
+  color: #8800f8;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+/*adjust list of contributes section*/
+#contribute .container ol li{
+    top: -5px;
+    left: -50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: purple;
+    border-radius: 50%;
+}
+#contribute .container ol{
+
+padding-bottom: 50px;
+}
+
+/*adjust footer section*/
+.page-footer .container ul{
+  columns: 4;
+  list-style-type: none; 
+
+
+}
+.page-footer .container ul li{
+background-color: blueviolet;
+border-radius: 2em;
+padding: 10px;
+
+
+}
+.page-footer .container ul li a{
+color: #dd00ff;
+letter-spacing: 0.1em;
+text-decoration: none;
+}
+
+svg{
+  width: 13px; 
+  height: 13px; 
+  background-color: transparent;
+}
+/*adjust the aside section*/
+aside{
+position: fixed;
+top: 20px; 
+right: 20px; 
+width: 200px; 
+background-color: #000000; 
+padding: 20px; 
+color:#dd00ff;
+border-radius: 1em;
+}
+
+.link-downloadcss,
+  .link-downloadhtml,
+  .link-codepen {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .link-downloadcss:hover,
+  .link-downloadhtml:hover,
+  .link-codepen:hover {
+    background-color: rgb(140, 81, 196);
+  }
